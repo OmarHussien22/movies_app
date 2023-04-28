@@ -15,7 +15,7 @@ class AnimationLottieNetworkWidget extends StatelessWidget {
         errorBuilder: (context, error, stackTrace) => Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Icon(Icons.wifi_off, size: 30, color: MyColor.white),
+                Icon(Icons.wifi_off, size: 45, color: MyColor.white),
                 Text(
                   'Check Wifi Connection',
                   style: TextStyle(fontSize: 30, color: MyColor.white),
